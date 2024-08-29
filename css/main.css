@@ -1,0 +1,734 @@
+body, .container-fluid {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar .nav-item
+{
+    position: relative;
+}
+.navbar .nav-item::after
+{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ;
+
+}
+.navbar .nav-item:hover::after
+{
+    width: 90%;
+}
+.navbar .nav-item
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 600;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6))  , url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 58px;
+    font-weight: 600;
+}
+header span
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    font-weight: 600;
+}
+header span::after
+{
+    content: '|';
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    animation: loading  10s infinite;
+}
+@keyframes loading
+{
+    0% {
+        content: "|";
+      }
+      1% {
+        content: "D|";
+      }
+      2% {
+        content: "De|";
+      }
+      3% {
+        content: "Des|";
+      }
+      4% {
+        content: "Desi|";
+      }
+      5% {
+        content: "Desig|";
+      }
+      6% {
+        content: "Design|";
+      }
+      7% {
+        content: "Designe|";
+      }
+      8% {
+        content: "Designer|";
+      }
+      9% {
+        content: "Designer|";
+      }
+      10% {
+        content: "Designer|";
+      }
+      11% {
+        content: "Designer|";
+      }
+      12% {
+        content: "Designer|";
+      }
+      13% {
+        content: "Designe|";
+      }
+      14% {
+        content: "Design|";
+      }
+      15% {
+        content: "Desig|";
+      }
+      16% {
+        content: "Desi|";
+      }
+      17% {
+        content: "Des|";
+      }
+    
+      18% {
+        content: "De|";
+      }
+      19% {
+        content: "Dev|";
+      }
+      20% {
+        content: "Deve|";
+      }
+      21% {
+        content: "Devel|";
+      }
+      22% {
+        content: "Develo|";
+      }
+      23% {
+        content: "Develop|";
+      }
+      24% {
+        content: "Develope|";
+      }
+      25% {
+        content: "Developer|";
+      }
+      26% {
+        content: "Developer|";
+      }
+      27% {
+        content: "Developer|";
+      }
+      28% {
+        content: "Developer|";
+      }
+      29% {
+        content: "Developer|";
+      }
+      30% {
+        content: "Develope|";
+      }
+      31% {
+        content: "Develop|";
+      }
+      32% {
+        content: "Develo|";
+      }
+      33% {
+        content: "Devel|";
+      }
+      34% {
+        content: "Deve|";
+      }
+      35% {
+        content: "Dev|";
+      }
+      36% {
+        content: "De|";
+      }
+      37% {
+        content: "D|";
+      }
+    
+      38% {
+        content: "|";
+      }
+      39% {
+        content: "F|";
+      }
+      40% {
+        content: "Fr|";
+      }
+      41% {
+        content: "Fre|";
+      }
+      42% {
+        content: "Free|";
+      }
+      43% {
+        content: "Freel|";
+      }
+      44% {
+        content: "Freela|";
+      }
+      45% {
+        content: "Freelan|";
+      }
+      46% {
+        content: "Freelanc|";
+      }
+      47% {
+        content: "Freelance|";
+      }
+      48% {
+        content: "Freelancer|";
+      }
+      49% {
+        content: "Freelancer|";
+      }
+      50% {
+        content: "Freelancer|";
+      }
+      51% {
+        content: "Freelancer|";
+      }
+      52% {
+        content: "Freelancer|";
+      }
+      53% {
+        content: "Freelance|";
+      }
+      54% {
+        content: "Freelanc|";
+      }
+      55% {
+        content: "Freelan|";
+      }
+      56% {
+        content: "Freela|";
+      }
+      57% {
+        content: "Freel|";
+      }
+      58% {
+        content: "Free|";
+      }
+      59% {
+        content: "Fre|";
+      }
+      60% {
+        content: "Fr|";
+      }
+      61% {
+        content: "F|";
+      }
+      62% {
+        content: "|";
+      }
+      63% {
+        content: "p|";
+      }
+      64% {
+        content: "ph|";
+      }
+      65% {
+        content: "pho|";
+      }
+      66% {
+        content: "phot|";
+      }
+      67% {
+        content: "photo|";
+      }
+      68% {
+        content: "photog|";
+      }
+      69% {
+        content: "photogr|";
+      }
+      70% {
+        content: "photogra|";
+      }
+      71% {
+        content: "photograp|";
+      }
+      72% {
+        content: "photograph|";
+      }
+      73% {
+        content: "photographe|";
+      }
+      74% {
+        content: "photographer|";
+      }
+      75% {
+        content: "photographer|";
+      }
+      76% {
+        content: "photographer|";
+      }
+      77% {
+        content: "photographer|";
+      }
+      78% {
+        content: "photographer|";
+      }
+      79% {
+        content: "photographe|";
+      }
+    
+      80% {
+        content: "photograph|";
+      }
+    
+      81% {
+        content: "photograp|";
+      }
+    
+      82% {
+        content: "photogra|";
+      }
+    
+      83% {
+        content: "photogr|";
+      }
+    
+      84% {
+        content: "photog|";
+      }
+    
+      85% {
+        content: "photo|";
+      }
+    
+      86% {
+        content: "phot|";
+      }
+    
+      87% {
+        content: "pho|";
+      }
+    
+      89% {
+        content: "ph|";
+      }
+    
+      90% {
+        content: "p|";
+      }
+    
+      91% {
+        content: "|";
+      }
+      98% {
+        content: "|";
+      }
+}
+.about
+{
+    background-color:white;
+   
+}
+#about h2
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 38px;
+    color: rgb(30, 30, 30);
+}
+
+#about p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    color: rgb(78, 78, 78);
+}
+#about .listfont span
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 26px;
+    color: rgb(30, 30, 30);
+    font-weight: bold;
+    
+}
+#about .listfont
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    color: rgb(78, 78, 78);
+}
+
+/* services section */
+#servies .card .circle
+{
+    width: 100px;
+    height: 100px;
+    border: 8px solid blue ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 1s;
+    margin: auto;
+}
+#servies .card:hover .circle
+{
+    background-color: blue;
+    color: #fff;
+    border: 8px solid rgb(211, 211, 214);
+} 
+#servies .line
+{
+  content:' ';
+  height: 30px;
+  width: 5px;
+  background-color: rgb(4, 120, 251);
+  rotate: 90deg;
+  margin-left: 680px;
+  
+}
+#servies h4
+{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 48px;
+font-weight: 700;
+color: rgb(30, 30, 30);
+line-height: 58px;
+}
+#servies p
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+  line-height: 24px;
+}
+/* numbers section */
+.counter
+{
+    background-image: url(../images/counters-bg.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+   
+}
+.counter .numbers .icon
+{
+  border-radius: 50%;
+  border: 6px white solid;
+  background-color:transparent;
+  padding: 10px;
+}
+.counter .overlay
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  height: 300px;
+  background-color:rgba(13, 88, 183,0.7);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.counter .overlay span
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.counter .overlay p
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+/* slider section */
+.slider
+{
+  background-image:url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  height: 550px;
+}
+.slider img
+{
+  width: 15%;
+}
+.slider .overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(13, 88, 183,0.7);
+  height: 550px;
+
+}
+/* portfolio section */
+.portfolio h3
+{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 48px;
+font-weight: 700;
+color: rgb(30, 30, 30);
+line-height: 58px;
+}
+.portfolio p
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+  line-height: 24px;
+}
+.portfolio .line
+{
+  content:' ';
+  height: 30px;
+  width: 3px;
+  background-color: rgb(4, 120, 251);
+  rotate: 90deg;
+  margin-left: 600px;
+  
+}
+.portfolio .por-icons
+{
+  border-radius: 50%;
+  border: solid 2px rgb(4, 120, 251);
+  
+}
+.portfolio .card-img
+{
+  transition: all 3s ease-in-out;
+}
+.portfolio .box:hover img
+{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.portfolio h2
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.portfolio .p
+{
+ font-size: 13px;
+ line-height: 19px;
+ font-weight: 400;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* blog */
+.blog .line
+{
+  content:' ';
+  height: 30px;
+  width: 4px;
+  background-color: rgb(4, 120, 251);
+  rotate: 90deg;
+  margin-left: 600px;
+
+  
+}
+.blog .card-img {
+  position: relative;
+}
+.blog h3
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: 
+  rgb(30, 30, 30);
+}
+.blog .box{
+  position: absolute;
+  bottom: -15px;
+  left: 155px;
+  right: 15px;
+  text-align: center;
+  background-color: blue;
+  width: 70px;
+}
+.blog .box1
+{
+  position: absolute;
+  bottom: -15px;
+  left: 140px;
+  right: 25px;
+  text-align: center;
+  background-color: blue;
+  width: 150px;
+}
+.blog .card-footer 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog  a{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+color: black;
+
+}
+.blog  a:hover
+{
+  color: rgb(0, 120, 255);
+}
+.blog  p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: 
+  rgb(78, 78, 78);
+  }
+  .blog .author a
+  {
+    text-decoration: none;
+    
+  }
+  .blog .author img
+  {
+    border-radius: 50%;
+    width: 13%;
+  }
+  /* form section */
+
+.contact {
+  background-image: url(../images/overlay-bg.jpg);
+  padding: 8rem 0 3rem 0;
+}
+.contact .margin {
+  margin-bottom: 2.5rem;
+}
+.contact textarea {
+  resize: vertical;
+}
+.contact input,
+.contact textarea {
+  border: 1px solid #e8e4e4;
+  transition: border 0.1s ease-in-out, outline 0.1s ease-in-out;
+  outline-color: transparent;
+}
+.contact input:focus,
+.contact textarea:focus {
+  border: 1px solid var(--primary-color);
+  outline: 4px solid #cde1f8;
+}
+.contact .circle-icon {
+  width: 45px;
+  height: 45px;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+  transition: all 0.6s;
+}
+.contact a:hover .circle-icon {
+  border-color: #cde1f8;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.contact button[type="submit"] {
+  background-color: var(--primary-color);
+  border: 0;
+  transition: all 0.3s ease-in-out;
+}
+.contact button[type="submit"]:hover {
+  background-color: #3393ff;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+.contact .overlay 
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(13, 88, 183, 0.7);
+  opacity: 0.7;
+} 
+
+  
+  /* Footer styles */
+  footer {
+    background-color: #0062d3;
+    color: white; 
+    padding: 1rem 0;
+  }
+
+  footer p,
+  footer a {
+    margin: 0;
+  }
+
+
+ 
